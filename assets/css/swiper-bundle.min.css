@@ -11,7 +11,7 @@
  */
 
 :root {
-    --swiper-theme-color: #007aff
+    --swiper-theme-color: #6167CE
 }
 
 :host {
@@ -453,7 +453,6 @@
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    left: 0;
     top: var(--swiper-pagination-top, auto);
 }
 
@@ -492,9 +491,9 @@
     background: var(--swiper-pagination-bullet-inactive-color, #000);
     border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
     display: inline-block;
-    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 16px));
     opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
-    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 16px));
 
     button& {
         appearance: none;
