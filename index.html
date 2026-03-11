@@ -8,12 +8,38 @@
         content="Благодійний фонд «Помагаєм» допомагає українцям у складних життєвих обставинах, підтримує гуманітарні проєкти та сприяє стійкості суспільства.">
     <title>Благодійний фонд «Помагаєм» - Давайте робити добро разом!</title>
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <meta name="theme-color" content="#712cf9">
+    <meta name="theme-color" content="#6167CE" />
+    <link rel="icon" type="image/x-icon" href="assets/img/icons/favicon.svg" />
+
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/swiper-bundle.min.css" rel="stylesheet">
 </head>
 
 <body>
+
+
+    <svg width="0" height="0" style="position:absolute">
+        <defs>
+
+            <clipPath id="donationClip" clipPathUnits="objectBoundingBox">
+
+                <path d="
+      M0 0.892
+      V0.088
+      C0 0.039 0.033 0 0.073 0
+      H0.927
+      C0.967 0 1 0.039 1 0.088
+      V0.88
+      C0.842 0.958 0.67 1 0.489 1
+      C0.319 1 0.156 0.961 0 0.892
+      Z" />
+
+            </clipPath>
+
+        </defs>
+    </svg>
+
+
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="arrow-right-circle" viewBox="0 0 16 16">
             <path
@@ -245,7 +271,7 @@
 
     <main>
 
-        <div class="container pt-lg-5">
+        <section class="container pt-lg-5">
             <div class="row">
                 <div class="col-lg-12 text-center my-5">
                     <h2 class="fw-bold">Завдяки вашій підтримці за 15 років ми змогли допомогти</h2>
@@ -347,9 +373,9 @@
 
 
             </div>
-        </div>
+        </section>
 
-        <div class="container pt-lg-5">
+        <section class="container pt-lg-5">
             <div class="row">
                 <div class="col-lg-12 text-center my-5">
                     <h2 class="fw-bold">Статистика допомоги за 2025 рік</h2>
@@ -392,71 +418,1980 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
 
-        <div class="container pt-lg-5">
-            <div class="row">
-                <div class="col-lg-12 text-center my-5">
-                    <h2 class="fw-bold">Гуманітарне реагування на повномасштабне вторгнення </h2>
+
+        <section class="humanitarian-block py-5">
+            <div class="container">
+
+                <h2 class="text-center mb-5 fw-bold">Гуманітарне реагування <br>на повномасштабне вторгнення </h2>
+
+                <div class="cards-grid">
+
+                    <a href="#" class="human-card">
+                        <img src="assets/img/block_war/block_war_01.jpg" alt="">
+                        <div class="card-overlay">
+                            <div class="card-text">
+                                Шелтери <br> для внутрішньо переміщених осіб
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="human-card">
+                        <img src="assets/img/block_war/block_war_02.jpg" alt="">
+                        <div class="card-overlay">
+                            <div class="card-text">
+                                Евакуація мирного населення <br> з зони бойових дій
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="human-card">
+                        <img src="assets/img/block_war/block_war_03.jpg" alt="">
+                        <div class="card-overlay">
+                            <div class="card-text">
+                                Подолання наслідків теракту <br> на Каховській ГЕС
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="human-card">
+                        <img src="assets/img/block_war/block_war_04.jpg" alt="">
+                        <div class="card-overlay">
+                            <div class="card-text">
+                                Допомога постраждалим <br> від війни
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="human-card">
+                        <img src="assets/img/block_war/block_war_05.jpg" alt="">
+                        <div class="card-overlay">
+                            <div class="card-text">
+                                Забезпечення <br> питною водою
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
 
-                <div class="block_war_container">
+            </div>
+        </section>
 
 
 
 
-                    <div class="card block_war_item ">
-                        <img src="assets/img/block_war/block_war_01.jpg" class="rounded-5" alt="">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title text-white">Шелтери для внутрішньо переміщених осіб</h5>
-                        </div>
-                    </div>
+        <section class="container pt-lg-5">
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <h2 class="fw-bold">Поточні збори</h2>
+                </div>
+
+                <div class="col-lg-12 text-center">
 
 
-                    <div class="card block_war_item">
-                        <img src="assets/img/block_war/block_war_02.jpg" class="rounded-5" alt="">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-                            <div class="block_war_title">Шелтери для внутрішньо переміщених осіб</div>
-                        </div>
-                    </div>
+                    <ul class="nav nav-pills donation-tabs justify-content-center mb-5" id="donationTabs"
+                        role="tablist">
 
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-all"
+                                type="button">
+                                Усі
+                            </button>
+                        </li>
 
-                    <div class="card block_war_item">
-                        <img src="assets/img/block_war/block_war_03.jpg" class="rounded-5" alt="">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-                            <div class="block_war_title">Шелтери для внутрішньо переміщених осіб</div>
-                        </div>
-                    </div>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-basic" type="button">
+                                Основні потреби
+                            </button>
+                        </li>
 
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-resilience">
+                                Життєздатність
+                            </button>
+                        </li>
 
-                    <div class="card block_war_item rounded-5">
-                        <img src="assets/img/block_war/block_war_04.jpg" class="rounded-5" alt="">
-                        <div class="card-img-overlay rounded-5">
-                            <h5 class="card-title">Card title</h5>
-                            <div class="block_war_title">Шелтери для внутрішньо переміщених осіб</div>
-                        </div>
-                    </div>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-health">
+                                Охорона здоров’я
+                            </button>
+                        </li>
 
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-psycho">
+                                Психологічна та соціальна підтримка
+                            </button>
+                        </li>
 
-                    <div class="card block_war_item">
-                        <img src="assets/img/block_war/block_war_05.jpg" class="rounded-5" alt="">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-                            <div class="block_war_title">Шелтери для внутрішньо переміщених осіб</div>
-                        </div>
-                    </div>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-education">
+                                Освіта
+                            </button>
+                        </li>
 
-
+                    </ul>
 
 
 
                 </div>
             </div>
-        </div>
+
+
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade show active" id="tab-all">
+
+
+
+                    <div class="row g-4 donation-grid">
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="1">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        1%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Транзитний центр для переселенців
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на забезпечення роботи Транзитного центру
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴1 000 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴994 374</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="health">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_3.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="10">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        10%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Саранча Еммануїл. Етап 3
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на Зібрані курс реабілітації в Іоанновому центрі
+                                        </p>
+                                    </div>
+
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴23 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴20 920</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_4.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="11">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        11%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Дубровська Наталія. Етап 8
+                                        </h3>
+                                        <p class="donation-text">
+                                            Зібрані кошти підуть на придбання медикаментів
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴16 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴15 000</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_5.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="34">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        34%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Земляний Ілля
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти придбання інсулінової помпи та витратних матеріалів до неї
+                                            для
+                                            Іллі
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴216 140</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴143 994</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="education">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_7.jpg" alt="25">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="15">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        25%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Збережемо дитячий простір рівності та інклюзії!
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на оплату роботи інклюзивного простору в студії «Паприка»
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴250 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴202 152</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="education">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_6.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="1">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        1%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Піддубна Арина. Етап 2
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на придбання медикаментів та спецхарчування.
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴195 739</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴194 444</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="tab-pane fade" id="tab-basic">
+                    <div class="row g-4 donation-grid">
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_5.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="34">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        34%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Земляний Ілля
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти придбання інсулінової помпи та витратних матеріалів до неї
+                                            для
+                                            Іллі
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴216 140</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴143 994</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="education">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_7.jpg" alt="25">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="15">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        25%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Збережемо дитячий простір рівності та інклюзії!
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на оплату роботи інклюзивного простору в студії «Паприка»
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴250 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴202 152</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="1">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        1%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Транзитний центр для переселенців
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на забезпечення роботи Транзитного центру
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴1 000 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴994 374</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="health">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_3.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="10">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        10%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Саранча Еммануїл. Етап 3
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на Зібрані курс реабілітації в Іоанновому центрі
+                                        </p>
+                                    </div>
+
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴23 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴20 920</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_4.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="11">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        11%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Дубровська Наталія. Етап 8
+                                        </h3>
+                                        <p class="donation-text">
+                                            Зібрані кошти підуть на придбання медикаментів
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴16 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴15 000</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="education">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_6.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="1">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        1%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Піддубна Арина. Етап 2
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на придбання медикаментів та спецхарчування.
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴195 739</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴194 444</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--- Життєздатність -->
+                <div class="tab-pane fade" id="tab-resilience">
+                    <div class="row g-4 donation-grid">
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="1">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        1%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Транзитний центр для переселенців
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на забезпечення роботи Транзитного центру
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴1 000 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴994 374</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="health">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_3.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="10">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        10%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Саранча Еммануїл. Етап 3
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на Зібрані курс реабілітації в Іоанновому центрі
+                                        </p>
+                                    </div>
+
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴23 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴20 920</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="resilience">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_5.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="34">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        34%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Земляний Ілля
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти придбання інсулінової помпи та витратних матеріалів до неї
+                                            для
+                                            Іллі
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴216 140</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴143 994</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="education">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_7.jpg" alt="25">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="15">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        25%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Збережемо дитячий простір рівності та інклюзії!
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на оплату роботи інклюзивного простору в студії «Паприка»
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴250 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴202 152</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="basic">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_4.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="11">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        11%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Дубровська Наталія. Етап 8
+                                        </h3>
+                                        <p class="donation-text">
+                                            Зібрані кошти підуть на придбання медикаментів
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴16 000</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴15 000</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 donation-item" data-category="education">
+                            <div class="donation-card">
+                                <div class="donation-image">
+                                    <img src="assets/img/card_img_test_6.jpg" alt="">
+                                </div>
+                                <div class="donation-progress-circle" data-percent="1">
+                                    <svg width="90" height="90" viewBox="0 0 100 100">
+                                        <circle class="progress-bg" cx="50" cy="50" r="42" />
+                                        <circle class="progress-bar" cx="50" cy="50" r="42" />
+                                    </svg>
+                                    <div class="progress-text">
+                                        1%
+                                    </div>
+                                </div>
+                                <div class="donation-body">
+                                    <div class="donation-top">
+                                        <h3 class="donation-title">
+                                            Піддубна Арина. Етап 2
+                                        </h3>
+                                        <p class="donation-text">
+                                            Збираємо кошти на придбання медикаментів та спецхарчування.
+                                        </p>
+                                    </div>
+                                    <div class="donation-progress">
+                                        <div class="donation-stats">
+                                            <div class="donation_amont_raised">
+                                                <div class="text-amount">Потрібно</div>
+                                                <span class="raised">₴195 739</span>
+                                            </div>
+                                            <div class="donation_amount_left">
+                                                <div class="text-amount">Залишилось</div>
+                                                <span class="goal">₴194 444</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary donation-btn">
+                                        допомогти
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-5">
+                <a href="#" class="btn btn-ghost">більше зборів</a>
+            </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="container pt-lg-5">
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <h2 class="fw-bold">Історії підтримки</h2>
+                    <p>Ми з вами їм допомогли</p>
+                </div>
+
+
+                <div class="col-md-4 story-card position-relative">
+                    <div class="story-img">
+                        <img src="assets/img/story_img_1.jpg" alt="">
+                    </div>
+                    <div class="story-content">
+                        <h3 class="story-title">
+                            Катерина та її діти почали нове життя після евакуації
+                        </h3>
+                        <a href="#" class="stretched-link story-btn">
+                            читати детально
+                            <img src="assets/img/icons/icon_right.svg" alt="стрелка вправо">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 story-card position-relative">
+                    <div class="story-img">
+                        <img src="assets/img/story_img_2.jpg" alt="">
+                    </div>
+                    <div class="story-content">
+                        <h3 class="story-title">
+                            Катерина та її діти почали нове життя після евакуації
+                        </h3>
+                        <a href="#" class="stretched-link story-btn">
+                            читати детально
+                            <img src="assets/img/icons/icon_right.svg" alt="стрелка вправо">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 story-card position-relative">
+                    <div class="story-img">
+                        <img src="assets/img/story_img_3.jpg" alt="">
+                    </div>
+                    <div class="story-content">
+                        <h3 class="story-title">
+                            Катерина та її діти почали нове життя після евакуації
+                        </h3>
+                        <a href="#" class="stretched-link story-btn">
+                            читати детально
+                            <img src="assets/img/icons/icon_right.svg" alt="стрелка вправо">
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="container-fluid p-0 pt-5">
+
+            <img src="assets/img/team_bg.jpg" class="w-100" alt="команда">
+
+        </section>
+
+        <section class="container pt-lg-5">
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <h2 class="fw-bold">Наші партнери</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_01.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                Ukraine Trust Chain
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>856 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_02.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                НОВА ПОШТА
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>1 901 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2018 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_03.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                Dnipro Plazma
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>1 234 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2016 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_04.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                Ukraine Trust Chain
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>856 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_05.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                EVA.ua
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>1 320 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2012 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_06.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                Мережа магазинів "Varus"
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>956 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2020 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_07.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                ALLO.ua
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>123 786 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_08.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                Lenovo
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>2 356 896 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2014 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_09.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                ШТОРМ
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>2 356 896 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_10.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                КЕРАМ плюс
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>2 356 896 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_11.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                OKKO
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>2 356 896 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <div class="partner-img">
+                            <img src="assets/img/partner/partner_12.png" class="img-fluid" alt="партнер 1">
+                        </div>
+                        <div class="partner-overlay">
+                            <h4 class="partner-title">
+                                Міжгнародний комітет порятунку IRC
+                            </h4>
+                            <p class="partner-help">
+                                Допомогли
+                                <span>2 356 896 грн</span>
+                            </p>
+                            <p class="partner-since">
+                                Співпрацюємо з 2022 року
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container pt-lg-5">
+
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <h2 class="fw-bold">Новини</h2>
+                </div>
+            </div>
+
+            <div class="swiper news-slider">
+
+                <div class="swiper-wrapper">
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_01.jpg" class="news-img-scr" alt="">
+                            </div>
+
+                            <div class="news-content">
+                                <p class="news-description">26-06-2023</p>
+
+                                <h4 class="news-title">
+                                    Разом із дітьми ми формуємо довіру до світу
+                                </h4>
+
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_02.jpg" class="news-img-scr" alt="">
+                            </div>
+
+                            <div class="news-content">
+                                <p class="news-description">26-06-2026</p>
+
+                                <h4 class="news-title">
+                                    Крок до інтеграції для дітей та їхніх родин у проєкті «СОС Діти. Програма екстреної
+                                    допомоги»
+                                </h4>
+
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_03.jpg" class="news-img-scr" alt="">
+                            </div>
+
+                            <div class="news-content">
+                                <p class="news-description">4-03-2026</p>
+
+                                <h4 class="news-title">
+                                    Транзитний центр – важлива ланка евакуації
+                                </h4>
+
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_04.jpg" class="news-img-scr" alt="">
+                            </div>
+                            <div class="news-content">
+                                <p class="news-description">4-03-2026</p>
+                                <h4 class="news-title">
+                                    БФ «Помагаєм» оголошує набір учасників Ради батьків дітей з інвалідністю
+                                </h4>
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_05.jpg" class="news-img-scr" alt="">
+                            </div>
+                            <div class="news-content">
+                                <p class="news-description">4-03-2026</p>
+                                <h4 class="news-title">
+                                    Акція «Благодійна ялинка. Новорічні подарунки від клієнтів MYplay» подарувала
+                                    радість
+                                </h4>
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_06.jpg" class="news-img-scr" alt="">
+                            </div>
+                            <div class="news-content">
+                                <p class="news-description">4-03-2026</p>
+                                <h4 class="news-title">
+                                    Транзитний центр – важлива ланка евакуації
+                                </h4>
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_01.jpg" class="news-img-scr" alt="">
+                            </div>
+                            <div class="news-content">
+                                <p class="news-description">26-06-2023</p>
+
+                                <h4 class="news-title">
+                                    Разом із дітьми ми формуємо довіру до світу
+                                </h4>
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_02.jpg" class="news-img-scr" alt="">
+                            </div>
+                            <div class="news-content">
+                                <p class="news-description">26-06-2026</p>
+
+                                <h4 class="news-title">
+                                    Крок до інтеграції для дітей та їхніх родин у проєкті «СОС Діти. Програма екстреної
+                                    допомоги»
+                                </h4>
+
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="assets/img/news/news_03.jpg" class="news-img-scr" alt="">
+                            </div>
+
+                            <div class="news-content">
+                                <p class="news-description">4-03-2026</p>
+
+                                <h4 class="news-title">
+                                    Транзитний центр – важлива ланка евакуації
+                                </h4>
+
+                                <a href="#" class="news-btn">
+                                    читати детально
+                                    <img src="assets/img/icons/icon_right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-pagination">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <a href="#" class="btn btn-ghost">більше новин</a>
+            </div>
+        </section>
+
+
+
+        <section class="container-fluid pt-lg-5">
+
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <h2 class="fw-bold">ЗМІ про нас</h2>
+                </div>
+            </div>
+
+            <div class="swiper smi-slider">
+
+                <div class="swiper-wrapper">
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Отримати освіту під час війни: як БФ «Помагаєм» допомагає школярам долати виклики
+                                сьогодення
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_01.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                У Дніпропетровській області працює шелтер, який допомагає сім'ям із гарячих точок країни
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_02.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Психологічна допомога дітям переселенцям у Дніпропетровську - півтора роки після
+                                переїзду із зони АТО
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_03.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Отримати освіту під час війни
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_01.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Отримати освіту під час війни: як БФ «Помагаєм» допомагає школярам
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_01.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Психологічна допомога дітям переселенцям
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_02.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                У Дніпропетровській області працює шелтер
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_03.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Отримати освіту під час війни
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_01.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Отримати освіту під час війни: як БФ «Помагаєм» допомагає школярам
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_01.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Психологічна допомога дітям переселенцям
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_02.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                У Дніпропетровській області працює шелтер
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_03.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="smi_item">
+                            <div class="smi_arrow-wrapper">
+                                <img src="assets/img/icons/icon_right_top.svg" class="smi_arrow" alt="">
+                            </div>
+
+                            <h3 class="smi_logo-title">
+                                Отримати освіту під час війни
+                            </h3>
+
+                            <div class="smi_logo">
+                                <img src="assets/img/partner/smi_01.png" class="smi_logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="news-pagination">
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="faq-section container py-5">
+
+            <h2 class="text-center faq-title mb-4">Часті запитання</h2>
+
+
+
+            <ul class="nav faq-tabs justify-content-center mb-5" id="faqTabs" role="tablist">
+
+                <li class="nav-item">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#faq-about" type="button">
+                        Про фонд
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faq-help" type="button">
+                        Гуманітарна допомога
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faq-donate" type="button">
+                        Переказ коштів
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faq-partners" type="button">
+                        Партнерства
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faq-other" type="button">
+                        Інше
+                    </button>
+                </li>
+
+            </ul>
+
+
+
+            <div class="tab-content">
+
+                <!-- TAB 1 -->
+
+                <div class="tab-pane fade show active" id="faq-about">
+
+                    <div class="accordion faq-accordion" id="accordionAbout">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#about1">
+
+                                    Як отримати допомогу від фонду?
+
+                                </button>
+
+                            </h3>
+
+                            <div id="about1" class="accordion-collapse collapse show" data-bs-parent="#accordionAbout">
+
+                                <div class="accordion-body">
+
+                                    Наразі Фонд приймає лише офіційні колективні звернення
+                                    від органів місцевого самоврядування та установ.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#about2">
+
+                                    Куди надсилати офіційні звернення?
+
+                                </button>
+
+                            </h3>
+
+                            <div id="about2" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+
+                                <div class="accordion-body">
+
+                                    Звернення можна надсилати через офіційні контакти фонду.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TAB 2 -->
+
+                <div class="tab-pane fade" id="faq-help">
+
+                    <div class="accordion faq-accordion" id="accordionHelp">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#help1">
+
+                                    Чи приймає фонд гуманітарну допомогу?
+
+                                </button>
+
+                            </h3>
+
+                            <div id="help1" class="accordion-collapse collapse show" data-bs-parent="#accordionHelp">
+
+                                <div class="accordion-body">
+
+                                    Так, фонд співпрацює з міжнародними партнерами
+                                    та приймає гуманітарну допомогу.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TAB 3 -->
+
+                <div class="tab-pane fade" id="faq-donate">
+
+                    <div class="accordion faq-accordion" id="accordionDonate">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#donate1">
+
+                                    Як зробити пожертву?
+
+                                </button>
+
+                            </h3>
+
+                            <div id="donate1" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionDonate">
+
+                                <div class="accordion-body">
+
+                                    Ви можете зробити внесок через сторінку донатів.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <!-- accordion -->
+
+            <div class="accordion faq-accordion" id="faqAccordion">
+
+                <!-- item -->
+                <div class="accordion-item">
+
+                    <h3 class="accordion-header">
+
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+
+                            Як отримати допомогу від фонду?
+
+                        </button>
+
+                    </h3>
+
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+
+                        <div class="accordion-body">
+
+                            Наразі Фонд приймає лише офіційні колективні звернення
+                            безпосередньо від органів місцевого самоврядування,
+                            медичних та освітніх закладів.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- item -->
+
+                <div class="accordion-item">
+
+                    <h3 class="accordion-header">
+
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+
+                            Чи приймає фонд гуманітарну допомогу для цивільних осіб?
+
+                        </button>
+
+                    </h3>
+
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div class="accordion-body">
+
+                            Так, фонд співпрацює з міжнародними організаціями
+                            та приймає гуманітарну допомогу для підтримки
+                            цивільного населення.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- item -->
+
+                <div class="accordion-item">
+
+                    <h3 class="accordion-header">
+
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+
+                            Як задонатити для допомоги ВПО?
+
+                        </button>
+
+                    </h3>
+
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div class="accordion-body">
+
+                            Ви можете зробити внесок через сторінку донатів
+                            або скористатися реквізитами фонду.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
 
 
     </main>
@@ -502,6 +2437,108 @@
             },
         });
     </script>
+
+    <script>
+
+        document.querySelectorAll('.donation-progress-circle').forEach(el => {
+
+            let percent = el.dataset.percent
+            let circle = el.querySelector('.progress-bar')
+
+            let radius = 42
+            let circumference = 2 * Math.PI * radius
+
+            circle.style.strokeDasharray = circumference
+
+            let offset = circumference - percent / 100 * circumference
+
+            circle.style.strokeDashoffset = offset
+
+        })
+
+    </script>
+
+    <script>
+        const newsSlider = new Swiper('.news-slider', {
+
+            slidesPerView: 3,
+            slidesPerGroup: 3,   // прокрутка по 3
+
+            spaceBetween: 30,
+
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            breakpoints: {
+
+                0: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1
+                },
+
+                768: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2
+                },
+
+                992: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 3
+                }
+
+            }
+
+        });
+    </script>
+
+    <script>
+        const smiSlider = new Swiper('.smi-slider', {
+
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+            spaceBetween: 30,
+
+            loop: true,
+            loopFillGroupWithBlank: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            breakpoints: {
+
+                0: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1
+                },
+
+                768: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2
+                },
+
+                992: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4
+                }
+
+            }
+
+        });
+    </script>
+
+
+
 </body>
 
 </html>
