@@ -16,13 +16,9 @@
 </head>
 
 <body>
-
-
     <svg width="0" height="0" style="position:absolute">
         <defs>
-
             <clipPath id="donationClip" clipPathUnits="objectBoundingBox">
-
                 <path d="
       M0 0.892
       V0.088
@@ -33,60 +29,30 @@
       C0.842 0.958 0.67 1 0.489 1
       C0.319 1 0.156 0.961 0 0.892
       Z" />
-
             </clipPath>
-
         </defs>
     </svg>
 
 
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-        <symbol id="arrow-right-circle" viewBox="0 0 16 16">
-            <path
-                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z">
-            </path>
-        </symbol>
-        <symbol id="bootstrap" viewBox="0 0 118 94">
-            <title>Bootstrap</title>
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
-            </path>
-        </symbol>
-        <symbol id="pin" viewBox="0 0 6 9">
-            <title>Pin</title>
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M3 9c1.657 0 3-4.343 3-6a3 3 0 0 0-6 0c0 1.657 1.343 6 3 6Zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-                clip-rule="evenodd" />
-            </path>
-        </symbol>
-        <symbol id="mail" viewBox="0 0 13 9">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M.04.718A1 1 0 0 0 0 1v7a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V1a1 1 0 0 0-.04-.282L8.196 5.115a2.5 2.5 0 0 1-3.392 0L.04.718Zm12.193-.69A1.002 1.002 0 0 0 12 0H1C.92 0 .842.01.767.027L5.483 4.38a1.5 1.5 0 0 0 2.034 0L12.233.027Z"
-                clip-rule="evenodd" />
-            </path>
-        </symbol>
-    </svg>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12 ">
                 <div class="top_bar pb-3">
                     <a href="/" class="top_bar_link">
-                        <svg class="bi me-2" width="13" height="13" role="img" aria-label="Bootstrap">
-                            <use xlink:href="#pin"></use>
-                        </svg>
+                        <img src="assets/img/icons/icon_top_location.svg"
+                            alt="Значок у вигляді шпильки, що позначає адресу офісу благодійного фонду">
                         49000 м. Дніпро, вул. Харківська, 8-а
                     </a>
                     <div class="top_bar_right d-lg-flex gap-5">
                         <a href="mailto:info@pomogaem.com.ua" class="top_bar_link">
-                            <svg class="bi me-2" width="13" height="13" role="img" aria-label="Bootstrap">
-                                <use xlink:href="#mail"></use>
-                            </svg>
+                            <img src="assets/img/icons/icon_top_letter.svg"
+                                alt="Значок конверта, що позначає контактну адресу електронної пошти">
                             info@pomogaem.com.ua
                         </a>
                         <a href="tel:0800330156" class="top_bar_link ">
-                            <svg class="bi me-2" width="13" height="13" role="img" aria-label="Bootstrap">
-                                <use xlink:href="#mail"></use>
-                            </svg>
+                            <img src="assets/img/icons/icon_top_phone.svg"
+                                alt="Phone icon indicating contact telephone number">
                             0 800 330 156
                         </a>
                     </div>
@@ -94,48 +60,189 @@
             </div>
             <div class="col-lg-12 ">
                 <nav class="navbar navbar-expand-lg mb-5">
+                    <a class="navbar-brand col-lg-3 me-0 p-0" href="#">
+                        <img src="./assets/img/brand/logo_top.svg" alt="Логотип БФ «Помагаєм»">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
                         aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse d-lg-flex">
-                        <a class="navbar-brand col-lg-3 me-0" href="#">
-                            <img src="./assets/img/brand/logo_top.svg" alt="Логотип БФ «Помагаєм»">
+                    <div class="collapse navbar-collapse d-lg-flex justify-content-lg-between" id="navbarsExample11">
+                        <button type="button" class="mobile-menu-close d-lg-none" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample11" aria-label="Закрити меню">&times;</button>
+                        <a class="mobile-menu-logo d-lg-none" href="index.html">
+                            <img src="./assets/img/brand/logo_top.svg" alt="Помагаєм">
                         </a>
                         <ul class="navbar-nav col-lg-6 gap-4 justify-content-lg-center">
-                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
-                                    data-bs-toggle="dropdown" aria-expanded="false">про фонд</a>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    про фонд
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="about.html">Про нас</a></li>
+                                    <li><a class="dropdown-item" href="istoria.html">Історія фонду</a></li>
+                                    <li><a class="dropdown-item" href="#">Команда</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Засновники</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Варіанти співпраці</a></li>
+                                    <li><a class="dropdown-item" href="#">Партнери</a></li>
+                                    <li><a class="dropdown-item" href="#">Історії підтримки</a></li>
+                                    <li><a class="dropdown-item" href="novyna.html">Новини</a></li>
+                                    <li><a class="dropdown-item" href="#">ЗМІ про нас</a></li>
+                                    <li><a class="dropdown-item" href="#">Відзнаки</a></li>
+                                    <li><a class="dropdown-item" href="vakansii.html">Вакансії</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Тендери</a></li>
+                                    <li><a class="dropdown-item" href="#">Отримати допомогу</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
-                                    data-bs-toggle="dropdown" aria-expanded="false">напрями</a>
+
+
+
+
+                            <li class="nav-item mega-dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="programsDropdown">
+                                    напрями
+                                </a>
+
+                                <!-- Мега-меню - теперь отдельный класс -->
+                                <div class="mega-menu">
+                                    <div class="container">
+                                        <div class="row g-4">
+                                            <!-- Колонка 1: ЗДОРОВ'Я -->
+                                            <div class="col-lg-3">
+                                                <div class="menu-column">
+                                                    <h3 class="menu-column-title">ЗДОРОВ'Я
+                                                        <img src="assets/img/icons/icon_mega_med.svg" alt="">
+                                                    </h3>
+                                                    <ul class="menu-column-list">
+                                                        <li><a href="#" class="menu-link">Допомога лікарням</a></li>
+                                                        <li><a href="#" class="menu-link">Допомога дітям</a></li>
+                                                        <li><a href="#" class="menu-link">Допомога дорослим</a></li>
+                                                        <li><a href="#" class="menu-link">Іоаннів центр</a></li>
+                                                        <li><a href="#" class="menu-link">Мобільна паліативна <br>
+                                                                бригада</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- остальные колонки так же -->
+                                            <div class="col-lg-3">
+                                                <div class="menu-column">
+                                                    <h3 class="menu-column-title">ОСНОВНІ ПОТРЕБИ
+                                                        <img src="assets/img/icons/icon_mega_potreb.svg" alt="">
+                                                    </h3>
+                                                    <ul class="menu-column-list">
+                                                        <li><a href="#" class="menu-link">Шелтер</a></li>
+                                                        <li><a href="#" class="menu-link">Відновлення житла</a></li>
+                                                        <li><a href="#" class="menu-link">Гаряча евакуація</a></li>
+                                                        <li><a href="#" class="menu-link">Холодна евакуація</a></li>
+                                                        <li><a href="#" class="menu-link">Гуманітарний хаб</a></li>
+                                                        <li><a href="#" class="menu-link">Мобільний хаб</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3">
+                                                <div class="menu-column">
+                                                    <h3 class="menu-column-title">ЖИТТЄЗДАТНІСТЬ
+                                                        <img src="assets/img/icons/icon_mega_life.svg" alt="">
+                                                    </h3>
+                                                    <ul class="menu-column-list">
+                                                        <li><a href="#" class="menu-link">Кейс-менеджмент</a></li>
+                                                        <li><a href="#" class="menu-link">Доступність</a></li>
+                                                        <li><a href="#" class="menu-link">Ми поруч</a></li>
+                                                        <li><a href="#" class="menu-link">Пані Патронеса</a></li>
+                                                        <li><a href="#" class="menu-link">Захист дитини</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3">
+                                                <div class="menu-column">
+                                                    <h3 class="menu-column-title">ПСИХО-СОЦІАЛЬНА
+                                                        <img src="assets/img/icons/icon_mega_psycho.svg" alt="">
+                                                    </h3>
+                                                    <ul class="menu-column-list">
+                                                        <li><a href="#" class="menu-link">Культура і суспільство</a>
+                                                        </li>
+                                                        <li><a href="#" class="menu-link">Доктор Клоун</a></li>
+                                                        <li><a href="#" class="menu-link">Арт-терапія</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    збори
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Здоров’я</a></li>
+                                    <li><a class="dropdown-item" href="#">Основні потреби</a></li>
+                                    <li><a class="dropdown-item" href="#">Життєздатність</a></li>
+                                    <li><a class="dropdown-item" href="#">Психологічна та <br /> соціальна підтримка</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Термінові збори</a></li>
+                                    <li><a class="dropdown-item" href="#">Архів</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
-                                    data-bs-toggle="dropdown" aria-expanded="false">збори</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">звіти</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="zvitnist.html">звіти</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">контакти</a> </li>
                         </ul>
                         <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-                            <button class="button-rain btn btn-primary gradient-text">ДОПОМОГТИ</button>
+                            <a href="dopomogty.html" class="button-rain btn btn-primary gradient-text">ДОПОМОГТИ</a>
+                        </div>
+
+                        <div class="mobile-menu-extra d-lg-none">
+                            <div class="mobile-menu-contacts">
+                                <p>49000 м.Дніпро, вул.Харківська, 8а</p>
+                                <p><a href="tel:0800330156">0 800 330 156</a></p>
+                                <p><a href="mailto:info@pomogaem.com.ua">info@pomogaem.com.ua</a></p>
+                            </div>
+                            <div class="mobile-menu-social">
+                                <a href="#" class="social-icon" aria-label="Facebook">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none"
+                                        viewBox="0 0 21 20">
+                                        <path fill="#595959"
+                                            d="M10.26 0c1.42 0 2.755.262 4.004.787a10.418 10.418 0 0 1 3.27 2.145c.93.906 1.665 1.963 2.204 3.17a9.43 9.43 0 0 1 .808 3.886c0 1.383-.27 2.682-.808 3.898a10.112 10.112 0 0 1-2.204 3.182 10.41 10.41 0 0 1-3.27 2.145 10.234 10.234 0 0 1-4.003.787c-1.42 0-2.751-.262-3.992-.787a10.454 10.454 0 0 1-3.257-2.145 10.112 10.112 0 0 1-2.204-3.182A9.512 9.512 0 0 1 0 9.988C0 8.605.27 7.31.808 6.103a10.151 10.151 0 0 1 2.204-3.17A10.456 10.456 0 0 1 6.27.786C7.509.262 8.84 0 10.261 0Zm3.87 4.362h-2.18a3.15 3.15 0 0 0-2.118.787 2.59 2.59 0 0 0-.624.81c-.147.302-.22.604-.22.906V8.13H7.052v2.479h1.934v5.006h2.572v-5.006h1.91v-2.48h-1.91v-.643c0-.19.077-.342.232-.453.155-.111.29-.167.404-.167h1.935V4.362Z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none"
+                                        viewBox="0 0 21 20">
+                                        <path fill="#595959"
+                                            d="M13.746 10.012c0-.27-.04-.566-.123-.884h1.031v4.827a.395.395 0 0 1-.135.31.48.48 0 0 1-.331.12H6.112a.438.438 0 0 1-.319-.12.414.414 0 0 1-.123-.31V9.128h1.007a3.571 3.571 0 0 0-.123.884c0 .478.094.932.282 1.362.188.43.446.8.774 1.111a3.736 3.736 0 0 0 2.552 1.016c.491 0 .958-.092 1.4-.275.441-.183.822-.43 1.141-.74a3.46 3.46 0 0 0 .76-1.112c.19-.43.283-.884.283-1.362Zm-3.584 2.174c-.31 0-.605-.055-.883-.167a2.165 2.165 0 0 1-1.203-1.159 2.1 2.1 0 0 1-.172-.848 2.185 2.185 0 0 1 .65-1.565c.205-.2.446-.355.725-.466.278-.112.572-.167.883-.167a2.23 2.23 0 0 1 1.583.633 2.184 2.184 0 0 1 .65 1.565 2.09 2.09 0 0 1-.17.848 2.164 2.164 0 0 1-.48.693 2.23 2.23 0 0 1-1.583.633Zm4.026-6.547a.48.48 0 0 1 .331.12c.09.08.135.183.135.31v1.315a.395.395 0 0 1-.135.31.48.48 0 0 1-.331.12h-1.35a.438.438 0 0 1-.32-.12.414.414 0 0 1-.122-.31V6.069c0-.127.041-.23.123-.31a.438.438 0 0 1 .319-.12h1.35ZM15.391 0c.704 0 1.37.131 2 .394.63.263 1.179.622 1.645 1.076.466.454.835.983 1.105 1.589.27.605.405 1.25.405 1.935v9.988c0 .685-.135 1.334-.405 1.948a5.049 5.049 0 0 1-1.105 1.6 5.202 5.202 0 0 1-1.645 1.076 5.143 5.143 0 0 1-2 .394H5.13a5.053 5.053 0 0 1-1.989-.394A5.24 5.24 0 0 1 1.51 18.53a5.05 5.05 0 0 1-1.105-1.6A4.78 4.78 0 0 1 0 14.982V4.994c0-.685.135-1.33.405-1.935a5.088 5.088 0 0 1 1.105-1.59A5.24 5.24 0 0 1 3.142.395 5.054 5.054 0 0 1 5.13 0h10.26Zm.614 5.64c0-.367-.131-.678-.393-.933a1.321 1.321 0 0 0-.958-.382H5.67a1.32 1.32 0 0 0-.957.382 1.251 1.251 0 0 0-.393.932v8.746c0 .366.131.677.393.932s.58.382.957.382h8.984c.377 0 .696-.127.958-.382s.393-.566.393-.932V5.639Z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="LinkedIn">
+                                    <svg viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.24 8.98h4.5V24H.24zM8.98 8.98h4.32v2.05h.06c.6-1.13 2.06-2.32 4.24-2.32 4.54 0 5.38 2.99 5.38 6.87V24h-4.5v-7.54c0-1.8-.03-4.11-2.5-4.11-2.5 0-2.88 1.95-2.88 3.97V24h-4.5z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Telegram">
+                                    <svg viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M9.04 15.47l-.38 4.38c.54 0 .77-.23 1.04-.51l2.5-2.39 5.18 3.79c.95.52 1.62.25 1.87-.88l3.39-15.9h.01c.31-1.44-.52-2-1.45-1.65L1.63 9.57C.24 10.1.26 10.9 1.39 11.24l4.88 1.52L18.6 5.46c.58-.36 1.11-.16.68.22" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
+
+
         <div class="row pb-5">
             <div class="col-lg-6 our_mission anim-dissolve">
                 <div class="our_mission_text">Допомагаємо українцям
@@ -146,22 +253,32 @@
                 <p>Люди у складних життєвих обставинах мають сили подбати про себе</p>
             </div>
         </div>
-        <div class="row pb-5">
-            <div class="col-lg-12 mt-3 swiper-nav">
-                <div class="swiper-pagination"></div>
-                <div class="div">
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+
+
+
+
+
+
+        <div class="row pb-5 hero-slider-row">
+
+            <div class="col-lg-12 hero-slider-nav">
+                <div class="slider-nav-container">
+                    <div class="swiper-pagination_top"></div>
+                    <div class="swiper-nav-buttons">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 ">
-                <div class="bg-primary rounded-24 p-5 text-white donation-form-box">
-                    <form class="d-flex flex-column">
+
+            <div class="col-lg-4 hero-slider-form">
+                <div class="bg-primary text-white donation-form-box">
+                    <form class="donation_form_body">
                         <div class="donation-form-title">
                             <h2><b>Давайте робити добро разом!</b></h2>
                             <p>Збір на підтримку проєктів фонду.</p>
                         </div>
-                        <div class="d-flex mt-4">
+                        <div class="d-flex donation-form-field">
                             <div class="form-floating w-75 ">
                                 <input type="number" class="form-control donation-form-amount" id="floatingInput"
                                     placeholder="Ваш внесок">
@@ -178,66 +295,102 @@
                             <button class="btn btn-primary donation-form-btn2 w-100" type="button">600</button>
                             <button class="btn btn-primary donation-form-btn2 w-100" type="button">1000</button>
                         </div>
-                        <button type="submit" class="btn donation-form-btn form-b mt-3 w-100">допомогти</button>
+                        <button type="submit" class="btn donation-form-btn form-b w-100">допомогти</button>
                     </form>
+
+
                 </div>
             </div>
-            <div class="col-lg-8">
+
+            <div class="col-lg-8 position-relative hero-slider-slides">
+                <!-- Контейнер для навигации сверху -->
+
                 <!-- Swiper -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide  rounded-24">
+                <div class="swiper mySwiper rounded-24">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide card">
                             <div class="slider_main_slide">
-                                <img src="./assets/img/card_img.jpg" class="card-img rounded-24" alt="...">
+                                <img src="./assets/img/slider_01.jpg" class="card-img" alt="...">
                                 <div class="card-img-overlay rounded-24 p-4">
-                                    <h5 class="card-title"><b>Допомога мешканцям Нікопольщини</b></h5>
+                                    <h5 class="card-title">Допомога мешканцям Нікопольщини</h5>
                                     <p class="slider_main_text">гуманітарна допомога та ліки для мешканців Нікопольщини.
                                     </p>
-                                    <p class="card-text text-uppercase anim-zoom mb-3">Допомогти →</p>
+                                    <span class="slider_main_link text-uppercase anim-zoom mb-3">
+                                        Допомогти →
+                                        <a href="#" class="stretched-link"></a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide card rounded-24">
+                        <div class="swiper-slide card">
                             <div class="slider_main_slide">
-                                <img src="./assets/img/card_img.jpg" class="card-img rounded-24" alt="...">
-                                <div class="card-img-overlay rounded-24 p-4">
-                                    <h5 class="card-title"><b>Допомога мешканцям Нікопольщини</b></h5>
-                                    <p class="slider_main_text">гуманітарна допомога та ліки для мешканців Нікопольщини.
+                                <img src="./assets/img/slider_02.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay p-4">
+                                    <h5 class="card-title">Допомога постраждалим від домашнього насильства
+                                    </h5>
+                                    <p class="slider_main_text">Створити екстрену систему реагування та надавати
+                                        комплексну допомогу
                                     </p>
-                                    <p class="card-text text-uppercase anim-zoom mb-3">Допомогти →</p>
+                                    <span class="slider_main_link text-uppercase anim-zoom mb-3">
+                                        Допомогти →
+                                        <a href="#" class="stretched-link"></a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide card rounded-24">
+                        <div class="swiper-slide card">
                             <div class="slider_main_slide">
-                                <img src="./assets/img/card_img.jpg" class="card-img rounded-24" alt="...">
-                                <div class="card-img-overlay rounded-24 p-4">
-                                    <h5 class="card-title"><b>Допомога мешканцям Нікопольщини</b></h5>
+                                <img src="./assets/img/slider_03.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay p-4">
+                                    <h5 class="card-title">Допомога мешканцям Нікопольщини</h5>
                                     <p class="slider_main_text">гуманітарна допомога та ліки для мешканців Нікопольщини.
                                     </p>
-                                    <p class="card-text text-uppercase anim-zoom mb-3">Допомогти →</p>
+                                    <span class="slider_main_link text-uppercase anim-zoom mb-3">
+                                        Допомогти →
+                                        <a href="#" class="stretched-link"></a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide card rounded-24">
+                        <div class="swiper-slide card">
                             <div class="slider_main_slide">
-                                <img src="./assets/img/card_img.jpg" class="card-img rounded-24" alt="...">
-                                <div class="card-img-overlay rounded-24 p-4">
-                                    <h5 class="card-title"><b>Допомога мешканцям Нікопольщини</b></h5>
+                                <img src="./assets/img/slider_04.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay p-4">
+                                    <h5 class="card-title">Допомога мешканцям Нікопольщини</h5>
                                     <p class="slider_main_text">гуманітарна допомога та ліки для мешканців Нікопольщини.
                                     </p>
-                                    <p class="card-text text-uppercase anim-zoom mb-3">Допомогти →</p>
+                                    <span class="slider_main_link text-uppercase anim-zoom mb-3">
+                                        Допомогти →
+                                        <a href="#" class="stretched-link"></a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide card rounded-24">
+                        <div class="swiper-slide card">
                             <div class="slider_main_slide">
-                                <img src="./assets/img/card_img.jpg" class="card-img rounded-24" alt="...">
-                                <div class="card-img-overlay rounded-24 p-4">
-                                    <h5 class="card-title"><b>Допомога мешканцям Нікопольщини</b></h5>
+                                <img src="./assets/img/slider_05.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay p-4">
+                                    <h5 class="card-title">Допомога мешканцям Нікопольщини</h5>
                                     <p class="slider_main_text">гуманітарна допомога та ліки для мешканців Нікопольщини.
                                     </p>
-                                    <p class="card-text text-uppercase anim-zoom mb-3">Допомогти →</p>
+                                    <span class="slider_main_link text-uppercase anim-zoom mb-3">
+                                        Допомогти →
+                                        <a href="#" class="stretched-link"></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="slider_main_slide">
+                                <img src="./assets/img/slider_06.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay p-4">
+                                    <h5 class="card-title">Допомога мешканцям Нікопольщини</h5>
+                                    <p class="slider_main_text">гуманітарна допомога та ліки для мешканців Нікопольщини.
+                                    </p>
+                                    <span class="slider_main_link text-uppercase anim-zoom mb-3">
+                                        Допомогти →
+                                        <a href="#" class="stretched-link"></a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -246,25 +399,30 @@
                 <!-- Swiper end -->
             </div>
         </div>
+
+
     </div>
 
     <div class="container-fluid stats_main anim-fade-up">
         <div class="container">
-            <div class="row py-3">
-
-                <div class="col-lg-6 d-flex align-items-center gap-2">
-                    <div class="stats_main_number fs-1 fw-bold">567 761 370</div>
-                    <img src="./assets/img/icons/icon_hrivna.svg" alt="Іконка гривня">
-                    <div class="fs-3 ml-4">надано допомоги</div>
+            <div class="row py-3 align-items-center">
+                <div class="col-lg-2 col-12 mb-3 mb-lg-0">
+                    <h2>16 років добра:</h2>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center justify-content-end gap-2">
-                    <div class="stats_main_number fs-1 fw-bold">15 508</div>
+
+                <div class="col-lg-5 col-12 d-flex align-items-center gap-2 mb-3 mb-lg-0">
+                    <div class="stats_main_number fw-bold">567 761 370</div>
+                    <img src="./assets/img/icons/icon_hrivna.svg" alt="Іконка гривня">
+                    <div class="fs-5 ms-2">надано допомоги за 16 років</div>
+                </div>
+
+                <div class="col-lg-5 col-12 d-flex align-items-center justify-content-lg-end gap-2">
+                    <div class="stats_main_number fw-bold">15 508</div>
                     <img src="./assets/img/icons/icon_person.svg" alt="Іконка людина">
-                    <div class="fs-3 ml-4">людей отримали допомогу</div>
+                    <div class="fs-5 ms-2">людей отримали допомогу</div>
                 </div>
             </div>
         </div>
-
     </div>
 
 
@@ -274,96 +432,96 @@
         <section class="container pt-lg-5">
             <div class="row">
                 <div class="col-lg-12 text-center my-5">
-                    <h2 class="fw-bold">Завдяки вашій підтримці за 15 років ми змогли допомогти</h2>
+                    <h2 class="fw-bold">Завдяки вашій підтримці за 16 років ми змогли допомогти</h2>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_volonteer.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">15 років</div>
-                        <p class="stats_item_text fs-5 pt-2">наш фонд надає турботу і підтримку вже більше 15 років</p>
+                        <div class="stats_item_title fw-bold">16 років</div>
+                        <p class="stats_item_text pt-2">наш фонд надає турботу і підтримку вже більше 15 років</p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_zbori.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">1500+ зборів </div>
-                        <p class="stats_item_text fs-5 pt-2">успішно закрито зборів на сайті фонду за час роботи сайту
+                        <div class="stats_item_title fw-bold">1 600+ зборів </div>
+                        <p class="stats_item_text pt-2">успішно закрито зборів на сайті фонду за час роботи сайту
                         </p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_piggi.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">350 млн. грн</div>
-                        <p class="stats_item_text fs-5 pt-2">на цю суму надано допомоги і підтримки нашим підопічним</p>
+                        <div class="stats_item_title fw-bold">350 млн. грн</div>
+                        <p class="stats_item_text pt-2">на цю суму надано допомоги і підтримки нашим підопічним</p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_humanitarian.svg" class="anim-fade-up"
                                 alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">3 500+ сімей</div>
-                        <p class="stats_item_text fs-5 pt-2">з прифронтових територій отримали продуктові набори </p>
+                        <div class="stats_item_title fw-bold">3 500+ сімей</div>
+                        <p class="stats_item_text pt-2">з прифронтових територій отримали продуктові набори </p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_bus.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">15000+ осіб</div>
-                        <p class="stats_item_text fs-5 pt-2">було евакуйовано з гарячих точок на сході, до Дніпра</p>
+                        <div class="stats_item_title fw-bold">15000+ осіб</div>
+                        <p class="stats_item_text pt-2">було евакуйовано з гарячих точок на сході, до Дніпра</p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_home.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">7586 людей</div>
-                        <p class="stats_item_text fs-5 pt-2">отримали тимчасове житло, допомогу та їжу в нашому шелтері
+                        <div class="stats_item_title fw-bold">7586 людей</div>
+                        <p class="stats_item_text pt-2">отримали тимчасове житло, допомогу та їжу в нашому шелтері
                         </p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_ic.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">350 млн. грн</div>
-                        <p class="stats_item_text fs-5 pt-2">на цю суму надано допомоги і підтримки нашим підопічним</p>
+                        <div class="stats_item_title fw-bold">350 млн. грн</div>
+                        <p class="stats_item_text pt-2">на цю суму надано допомоги і підтримки нашим підопічним</p>
                     </div>
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="stats_item">
                         <div class="stats_item_icon">
                             <img src="assets/img/icons/icon_soc.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
-                        <div class="stats_item_title fs-3 fw-bold">1105 компаній</div>
-                        <p class="stats_item_text fs-5 pt-2">долучились<br /> до проектів нашого фонду </p>
+                        <div class="stats_item_title fw-bold">1105 компаній</div>
+                        <p class="stats_item_text pt-2">долучились<br /> до проектів нашого фонду </p>
                     </div>
                 </div>
 
@@ -386,7 +544,7 @@
                             <img src="assets/img/icons/icon_hand_01.svg" class="anim-fade-up" alt="Іконка волонтер">
                         </div>
                         <div class="stats_item_title fs-4 fw-bold"> 192 МЛН+</div>
-                        <div class="stats_sub_title">Залучено у вигляді грантів</div>
+                        <div class="stats_sub_title">Залучено у вигляді <br> грантів</div>
                     </div>
                     <div class="stats_item">
                         <div class="stats_item_icon_right">
@@ -433,7 +591,7 @@
                     <a href="#" class="human-card">
                         <img src="assets/img/block_war/block_war_01.jpg" alt="">
                         <div class="card-overlay">
-                            <div class="card-text">
+                            <div class="human-card-text">
                                 Шелтери <br> для внутрішньо переміщених осіб
                             </div>
                         </div>
@@ -442,7 +600,7 @@
                     <a href="#" class="human-card">
                         <img src="assets/img/block_war/block_war_02.jpg" alt="">
                         <div class="card-overlay">
-                            <div class="card-text">
+                            <div class="human-card-text">
                                 Евакуація мирного населення <br> з зони бойових дій
                             </div>
                         </div>
@@ -451,7 +609,7 @@
                     <a href="#" class="human-card">
                         <img src="assets/img/block_war/block_war_03.jpg" alt="">
                         <div class="card-overlay">
-                            <div class="card-text">
+                            <div class="human-card-text">
                                 Подолання наслідків теракту <br> на Каховській ГЕС
                             </div>
                         </div>
@@ -460,7 +618,7 @@
                     <a href="#" class="human-card">
                         <img src="assets/img/block_war/block_war_04.jpg" alt="">
                         <div class="card-overlay">
-                            <div class="card-text">
+                            <div class="human-card-text">
                                 Допомога постраждалим <br> від війни
                             </div>
                         </div>
@@ -469,7 +627,7 @@
                     <a href="#" class="human-card">
                         <img src="assets/img/block_war/block_war_05.jpg" alt="">
                         <div class="card-overlay">
-                            <div class="card-text">
+                            <div class="human-card-text">
                                 Забезпечення <br> питною водою
                             </div>
                         </div>
@@ -485,8 +643,8 @@
 
         <section class="container pt-lg-5">
             <div class="row">
-                <div class="col-lg-12 text-center my-5">
-                    <h2 class="fw-bold">Поточні збори</h2>
+                <div class="col-lg-12 text-center mt-5 mb-2">
+                    <h2 class="fw-bold">Поточні збори у напрямах</h2>
                 </div>
 
                 <div class="col-lg-12 text-center">
@@ -735,7 +893,7 @@
                                 <div class="donation-image">
                                     <img src="assets/img/card_img_test_7.jpg" alt="25">
                                 </div>
-                                <div class="donation-progress-circle" data-percent="15">
+                                <div class="donation-progress-circle" data-percent="25">
                                     <svg width="90" height="90" viewBox="0 0 100 100">
                                         <circle class="progress-bg" cx="50" cy="50" r="42" />
                                         <circle class="progress-bar" cx="50" cy="50" r="42" />
@@ -877,7 +1035,7 @@
                                 <div class="donation-image">
                                     <img src="assets/img/card_img_test_7.jpg" alt="25">
                                 </div>
-                                <div class="donation-progress-circle" data-percent="15">
+                                <div class="donation-progress-circle" data-percent="25">
                                     <svg width="90" height="90" viewBox="0 0 100 100">
                                         <circle class="progress-bg" cx="50" cy="50" r="42" />
                                         <circle class="progress-bar" cx="50" cy="50" r="42" />
@@ -1227,7 +1385,7 @@
                                 <div class="donation-image">
                                     <img src="assets/img/card_img_test_7.jpg" alt="25">
                                 </div>
-                                <div class="donation-progress-circle" data-percent="15">
+                                <div class="donation-progress-circle" data-percent="25">
                                     <svg width="90" height="90" viewBox="0 0 100 100">
                                         <circle class="progress-bg" cx="50" cy="50" r="42" />
                                         <circle class="progress-bar" cx="50" cy="50" r="42" />
@@ -1355,9 +1513,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 text-center mt-5">
-                <a href="#" class="btn btn-ghost">більше зборів</a>
-            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <a href="#" class="btn btn-ghost">більше зборів</a>
+                </div>
             </div>
         </section>
 
@@ -1366,7 +1525,7 @@
 
         <section class="container pt-lg-5">
             <div class="row">
-                <div class="col-lg-12 text-center my-5">
+                <div class="col-lg-12 text-center mt-5 mb-2">
                     <h2 class="fw-bold">Історії підтримки</h2>
                     <p>Ми з вами їм допомогли</p>
                 </div>
@@ -1425,7 +1584,7 @@
 
 
 
-        <section class="container-fluid p-0 pt-5">
+        <section class="container-fluid p-0 pt-5 mt-5">
 
             <img src="assets/img/team_bg.jpg" class="w-100" alt="команда">
 
@@ -1439,7 +1598,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_01.png" class="img-fluid" alt="партнер 1">
@@ -1458,7 +1617,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_02.png" class="img-fluid" alt="партнер 1">
@@ -1477,7 +1636,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_03.png" class="img-fluid" alt="партнер 1">
@@ -1496,7 +1655,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_04.png" class="img-fluid" alt="партнер 1">
@@ -1515,7 +1674,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_05.png" class="img-fluid" alt="партнер 1">
@@ -1534,7 +1693,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_06.png" class="img-fluid" alt="партнер 1">
@@ -1553,7 +1712,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_07.png" class="img-fluid" alt="партнер 1">
@@ -1572,7 +1731,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_08.png" class="img-fluid" alt="партнер 1">
@@ -1591,7 +1750,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_09.png" class="img-fluid" alt="партнер 1">
@@ -1610,7 +1769,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_10.png" class="img-fluid" alt="партнер 1">
@@ -1629,7 +1788,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_11.png" class="img-fluid" alt="партнер 1">
@@ -1648,7 +1807,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="partner-logo">
                         <div class="partner-img">
                             <img src="assets/img/partner/partner_12.png" class="img-fluid" alt="партнер 1">
@@ -1883,7 +2042,7 @@
 
 
 
-        <section class="container-fluid pt-lg-5 my-5">
+        <section class="container-fluid my-5">
 
             <div class="row">
                 <div class="col-lg-12 text-center my-5">
@@ -2567,16 +2726,388 @@
 
 
 
+        <section class="container-fluid diplomas-section py-5 mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center faq-title mt-5">Відзнаки</h2>
+                </div>
+            </div>
+            <div class="container my-5">
+                <div class="swiper diplomas-slider">
+                    <div class="swiper-wrapper">
+                        <!-- slide -->
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_01.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_01.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Марганецька міська територіальна громада - вдячність директорці фонду Марині
+                                        Передерій
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_02.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_02.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка від міського голови міста Мелітополь голові фонду Пінчуку Андрію
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_03.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_03.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка Марині Передерій УСЗН Покровської міськради
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_04.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_04.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка Марині Передерій УСЗН Покровської міськради
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_05.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_05.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Аудиторський звіт та лист керівництва від ООН Жінки
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_04.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_04.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка Марині Передерій УСЗН Покровської міськради
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_05.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_05.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Аудиторський звіт та лист керівництва від ООН Жінки
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_01.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_01.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Марганецька міська територіальна громада - вдячність директорці фонду Марині
+                                        Передерій
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_02.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_02.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка від міського голови міста Мелітополь голові фонду Пінчуку Андрію
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_03.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_03.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка Марині Передерій УСЗН Покровської міськради
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_04.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_04.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Подяка Марині Передерій УСЗН Покровської міськради
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/diplomas/diplom_05.jpg" class="diploma_item">
+                                <img src="assets/img/diplomas/diplom_05.jpg" class="diploma_img" alt="">
+                                <div class="diploma_overlay">
+                                    <img src="assets/img/icons/icon_zoom.svg" class="diploma_zoom" alt="">
+                                    <p class="diploma_text">
+                                        Аудиторський звіт та лист керівництва від ООН Жінки
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-pagination">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container pt-lg-5 pb-5">
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <h2 class="fw-bold">Аудиторські висновки</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="audit-item">
+                        <div class="audit_content">
+                            <a href="#" class="audit_link stretched-link">
+                                <img src="assets/img/icons/pdf.svg" class="audit-icon" alt="аудиторський висновок">
+                            </a>
+                            <div class="audit-content">
+                                <div class="audit_title">2023 рік</div>
+                                <div class="audit_text">Аудиторський висновок </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="audit-item">
+                        <div class="audit_content">
+                            <a href="#" class="audit_link stretched-link">
+                                <img src="assets/img/icons/pdf.svg" class="audit-icon" alt="аудиторський висновок">
+                            </a>
+                            <div class="audit-content">
+                                <div class="audit_title">2023 рік</div>
+                                <div class="audit_text">Аудиторський висновок </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="audit-item">
+                        <div class="audit_content">
+                            <a href="#" class="audit_link stretched-link">
+                                <img src="assets/img/icons/pdf.svg" class="audit-icon" alt="аудиторський висновок">
+                            </a>
+                            <div class="audit-content">
+                                <div class="audit_title">2023 рік</div>
+                                <div class="audit_text">Аудиторський висновок </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="audit-item">
+                        <div class="audit_content">
+                            <a href="#" class="audit_link stretched-link">
+                                <img src="assets/img/icons/pdf.svg" class="audit-icon" alt="аудиторський висновок">
+                            </a>
+                            <div class="audit-content">
+                                <div class="audit_title">2023 рік</div>
+                                <div class="audit_text">Аудиторський висновок </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="audit-item">
+                        <div class="audit_content">
+                            <a href="#" class="audit_link stretched-link">
+                                <img src="assets/img/icons/pdf.svg" class="audit-icon" alt="аудиторський висновок">
+                            </a>
+                            <div class="audit-content">
+                                <div class="audit_title">2023 рік</div>
+                                <div class="audit_text">Аудиторський висновок </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="audit-item">
+                        <div class="audit_content">
+                            <a href="#" class="audit_link stretched-link">
+                                <img src="assets/img/icons/pdf.svg" class="audit-icon" alt="аудиторський висновок">
+                            </a>
+                            <div class="audit-content">
+                                <div class="audit_title">2023 рік</div>
+                                <div class="audit_text">Аудиторський висновок </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
+            </div>
+        </section>
 
+
+        <section class="donate-cta container my-5">
+            <div class="donate-card">
+                <div class="donate-bg"></div>
+                <div class="row align-items-center position-relative">
+                    <div class="col-lg-7 donate-content">
+                        <h2 class="donate-title">Давайте робити добро разом!</h2>
+                        <p class="donate-subtitle">кожна гривня важлива</p>
+                        <div class="donate-buttons">
+                            <a href="dopomogty.html" class="btn btn-donate-main">ДОПОМОГТИ</a>
+                            <a href="#" class="btn btn-donate-outline">УСІ ЗБОРИ</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 donate-image-col">
+                        <img src="assets/img/children.png" class="donate-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="pt-5 my-5 text-body-secondary border-top anim-fade-up">
-        Created by the Bootstrap team &middot; &copy; 2025
+
+
+    <footer class="site-footer ">
+        <div class="container">
+            <div class="row footer-top">
+                <!-- ЛОГО + КОНТАКТЫ -->
+                <div class="col-lg-3 col-md-3 footer-info">
+                    <img src="assets/img/brand/logo_footer.svg" class="footer-logo" alt="Помагаєм">
+                    <div class="footer-contact">
+                        <p>49000 м.Дніпро<br>
+                            вул.Харківська, 8а</p>
+                        <p>0 800 330 156</p>
+                        <p>info@pomogaem.com.ua</p>
+                    </div>
+                    <div class="footer-social">
+                        <div class="footer-social">
+                            <a href="#" class="social-icon" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none"
+                                    viewBox="0 0 21 20">
+                                    <path fill="#595959"
+                                        d="M10.26 0c1.42 0 2.755.262 4.004.787a10.418 10.418 0 0 1 3.27 2.145c.93.906 1.665 1.963 2.204 3.17a9.43 9.43 0 0 1 .808 3.886c0 1.383-.27 2.682-.808 3.898a10.112 10.112 0 0 1-2.204 3.182 10.41 10.41 0 0 1-3.27 2.145 10.234 10.234 0 0 1-4.003.787c-1.42 0-2.751-.262-3.992-.787a10.454 10.454 0 0 1-3.257-2.145 10.112 10.112 0 0 1-2.204-3.182A9.512 9.512 0 0 1 0 9.988C0 8.605.27 7.31.808 6.103a10.151 10.151 0 0 1 2.204-3.17A10.456 10.456 0 0 1 6.27.786C7.509.262 8.84 0 10.261 0Zm3.87 4.362h-2.18a3.15 3.15 0 0 0-2.118.787 2.59 2.59 0 0 0-.624.81c-.147.302-.22.604-.22.906V8.13H7.052v2.479h1.934v5.006h2.572v-5.006h1.91v-2.48h-1.91v-.643c0-.19.077-.342.232-.453.155-.111.29-.167.404-.167h1.935V4.362Z" />
+                                </svg>
+
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Instagram">
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none"
+                                    viewBox="0 0 21 20">
+                                    <path fill="#595959"
+                                        d="M13.746 10.012c0-.27-.04-.566-.123-.884h1.031v4.827a.395.395 0 0 1-.135.31.48.48 0 0 1-.331.12H6.112a.438.438 0 0 1-.319-.12.414.414 0 0 1-.123-.31V9.128h1.007a3.571 3.571 0 0 0-.123.884c0 .478.094.932.282 1.362.188.43.446.8.774 1.111a3.736 3.736 0 0 0 2.552 1.016c.491 0 .958-.092 1.4-.275.441-.183.822-.43 1.141-.74a3.46 3.46 0 0 0 .76-1.112c.19-.43.283-.884.283-1.362Zm-3.584 2.174c-.31 0-.605-.055-.883-.167a2.165 2.165 0 0 1-1.203-1.159 2.1 2.1 0 0 1-.172-.848 2.185 2.185 0 0 1 .65-1.565c.205-.2.446-.355.725-.466.278-.112.572-.167.883-.167a2.23 2.23 0 0 1 1.583.633 2.184 2.184 0 0 1 .65 1.565 2.09 2.09 0 0 1-.17.848 2.164 2.164 0 0 1-.48.693 2.23 2.23 0 0 1-1.583.633Zm4.026-6.547a.48.48 0 0 1 .331.12c.09.08.135.183.135.31v1.315a.395.395 0 0 1-.135.31.48.48 0 0 1-.331.12h-1.35a.438.438 0 0 1-.32-.12.414.414 0 0 1-.122-.31V6.069c0-.127.041-.23.123-.31a.438.438 0 0 1 .319-.12h1.35ZM15.391 0c.704 0 1.37.131 2 .394.63.263 1.179.622 1.645 1.076.466.454.835.983 1.105 1.589.27.605.405 1.25.405 1.935v9.988c0 .685-.135 1.334-.405 1.948a5.049 5.049 0 0 1-1.105 1.6 5.202 5.202 0 0 1-1.645 1.076 5.143 5.143 0 0 1-2 .394H5.13a5.053 5.053 0 0 1-1.989-.394A5.24 5.24 0 0 1 1.51 18.53a5.05 5.05 0 0 1-1.105-1.6A4.78 4.78 0 0 1 0 14.982V4.994c0-.685.135-1.33.405-1.935a5.088 5.088 0 0 1 1.105-1.59A5.24 5.24 0 0 1 3.142.395 5.054 5.054 0 0 1 5.13 0h10.26Zm.614 5.64c0-.367-.131-.678-.393-.933a1.321 1.321 0 0 0-.958-.382H5.67a1.32 1.32 0 0 0-.957.382 1.251 1.251 0 0 0-.393.932v8.746c0 .366.131.677.393.932s.58.382.957.382h8.984c.377 0 .696-.127.958-.382s.393-.566.393-.932V5.639Z" />
+                                </svg>
+
+                            </a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.24 8.98h4.5V24H.24zM8.98 8.98h4.32v2.05h.06c.6-1.13 2.06-2.32 4.24-2.32 4.54 0 5.38 2.99 5.38 6.87V24h-4.5v-7.54c0-1.8-.03-4.11-2.5-4.11-2.5 0-2.88 1.95-2.88 3.97V24h-4.5z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Telegram">
+                                <svg viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M9.04 15.47l-.38 4.38c.54 0 .77-.23 1.04-.51l2.5-2.39 5.18 3.79c.95.52 1.62.25 1.87-.88l3.39-15.9h.01c.31-1.44-.52-2-1.45-1.65L1.63 9.57C.24 10.1.26 10.9 1.39 11.24l4.88 1.52L18.6 5.46c.58-.36 1.11-.16.68.22" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-col">
+                    <h4>Фонд</h4>
+                    <ul>
+                        <li><a href="about.html">Про фонд</a></li>
+                        <li><a href="#">Потрібна допомога</a></li>
+                        <li><a href="#">Співпраця</a></li>
+                        <li><a href="dopomogty.html">Допомогти</a></li>
+                        <li><a href="#">Залишити відгук</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 footer-col">
+                    <h4>Розділи</h4>
+                    <ul>
+                        <li><a href="#">Програми</a></li>
+                        <li><a href="zvitnist.html">Звіти</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Поточні збори</a></li>
+                        <li><a href="novyna.html">Новини</a></li>
+                        <li><a href="#">Кабінет добродія</a></li>
+                    </ul>
+                </div>
+                <!-- ПРОГРАМИ -->
+                <div class="col-lg-2 col-md-3 footer-col">
+                    <h4>Програми</h4>
+                    <ul>
+                        <li><a href="#">Здоров'я</a></li>
+                        <li><a href="#">Доступність</a></li>
+                        <li><a href="#">Сім'я</a></li>
+                        <li><a href="#">Ми поруч</a></li>
+                        <li><a href="#">Культура і суспільство</a></li>
+                    </ul>
+                </div>
+                <!-- СЕРТИФИКАТ -->
+                <div class="col-lg-3 footer-cert">
+                    <img src="assets/img/trust-badge.png" class="footer-badge w-100" alt="Transparency & Trust">
+                </div>
+            </div>
+            <div class="footer-bottom anim-fade-up">
+                © Благодійний фонд «Помагаєм» | pomogaem.com.ua | 2024
+            </div>
+        </div>
     </footer>
-    </div>
-    <script src="./assets/js/bootstrap.bundle.min.js" class="astro-vvvwv3sm"></script>
+
+
+
+
+
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script>
+        // Блокування скролу сторінки, поки відкрите повноекранне мобільне меню
+        (function () {
+            var menu = document.getElementById('navbarsExample11');
+            if (menu) {
+                menu.addEventListener('show.bs.collapse', function () { document.body.classList.add('menu-open'); });
+                menu.addEventListener('hide.bs.collapse', function () { document.body.classList.remove('menu-open'); });
+            }
+        })();
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const elements = document.querySelectorAll("[class*='anim-']"); // ищем все блоки с классом anim-...
@@ -2598,19 +3129,43 @@
             elements.forEach(el => observer.observe(el));
         });
     </script>
+
+
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
+
             slidesPerView: 2,
             spaceBetween: 24,
+            loop: true,
+
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false
+            },
+
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination_top",
                 clickable: true,
             },
+
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+
+            breakpoints: {
+
+                0: {
+                    slidesPerView: 1
+                },
+
+                768: {
+                    slidesPerView: 2
+                }
+
+            }
+
         });
     </script>
 
@@ -2644,11 +3199,6 @@
 
             loop: true,
 
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -2678,11 +3228,9 @@
 
     <script>
         const smiSlider = new Swiper('.smi-slider', {
-
             slidesPerView: 4,
             slidesPerGroup: 4,
             spaceBetween: 30,
-
             loop: true,
             loopFillGroupWithBlank: true,
 
@@ -2713,8 +3261,174 @@
         });
     </script>
 
+    <script>
+        const diplomasSlider = new Swiper('.diplomas-slider', {
+            slidesPerView: 6,
+            slidesPerGroup: 6,
+            spaceBetween: 25,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 3
+                },
+                992: {
+                    slidesPerView: 4
+                },
+                1200: {
+                    slidesPerView: 6
+                }
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const megaDropdown = document.querySelector('.mega-dropdown');
+            const megaMenu = document.querySelector('.mega-menu');
+            const allNavItems = document.querySelectorAll('.navbar-nav > li');
+            let hideTimeout;
+            let isVisible = false;
+
+            if (megaDropdown && megaMenu) {
+                // Отслеживаем позицию мыши
+                document.addEventListener('mousemove', (e) => {
+                    window.mouseX = e.clientX;
+                    window.mouseY = e.clientY;
+                });
+
+                const showMenu = () => {
+                    clearTimeout(hideTimeout);
+                    if (!isVisible) {
+                        isVisible = true;
+                        megaMenu.classList.add('visible');
+                    }
+                };
+
+                const hideMenu = () => {
+                    clearTimeout(hideTimeout);
+                    hideTimeout = setTimeout(() => {
+                        // Проверяем, не наведена ли мышь на меню или пункт
+                        if (!megaMenu.matches(':hover') && !megaDropdown.matches(':hover')) {
+                            isVisible = false;
+                            megaMenu.classList.remove('visible');
+                        }
+                    }, 200); // Уменьшил задержку до 200ms
+                };
+
+                // Проверка при наведении на другие пункты меню
+                allNavItems.forEach(item => {
+                    if (item !== megaDropdown) {
+                        item.addEventListener('mouseenter', () => {
+                            // Если мега-меню открыто и мышь уходит на другой пункт - закрываем
+                            if (isVisible) {
+                                clearTimeout(hideTimeout);
+                                isVisible = false;
+                                megaMenu.classList.remove('visible');
+                            }
+                        });
+                    }
+                });
+
+                // События для пункта меню
+                megaDropdown.addEventListener('mouseenter', showMenu);
+                megaDropdown.addEventListener('mouseleave', hideMenu);
+
+                // События для меню
+                megaMenu.addEventListener('mouseenter', showMenu);
+                megaMenu.addEventListener('mouseleave', hideMenu);
+
+                // Для мобильных
+                if (window.innerWidth <= 991) {
+                    const navLink = megaDropdown.querySelector('.nav-link');
+                    navLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        megaDropdown.classList.toggle('active');
+                        if (megaDropdown.classList.contains('active')) {
+                            megaMenu.classList.add('visible');
+
+                            // Закрываем другие открытые dropdown
+                            document.querySelectorAll('.nav-item.dropdown.show, .nav-item.dropdown.active').forEach(el => {
+                                if (el !== megaDropdown) {
+                                    el.classList.remove('show', 'active');
+                                }
+                            });
+                        } else {
+                            megaMenu.classList.remove('visible');
+                        }
+                    });
+                }
+            }
+        });
+    </script>
 
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const amountInput = document.querySelector('.donation-form-amount');
+            const amountButtons = document.querySelectorAll('.donation-form-btn2');
+            const form = document.querySelector('.donation_form_body');
+
+            if (amountInput && amountButtons.length > 0) {
+
+                // Кнопки з сумами
+                amountButtons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        const buttonValue = this.textContent.trim();
+                        amountInput.value = buttonValue;
+
+                        // Візуальний ефект
+                        amountButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+
+                // Очищаємо активний клас при ручному введенні
+                amountInput.addEventListener('input', function () {
+                    amountButtons.forEach(btn => btn.classList.remove('active'));
+                });
+
+                // Валідація форми
+                if (form) {
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+
+                        const amount = amountInput.value.trim();
+                        const currency = document.querySelector('.donation-form-valuta').value;
+
+                        if (!amount || amount <= 0) {
+                            alert('Будь ласка, введіть суму пожертви');
+                            return;
+                        }
+
+                        // Тут можна додати код для відправки форми
+                        console.log('Донат:', amount, currency);
+                        alert(`Дякуємо за пожертву ${amount} ${getCurrencyText(currency)}!`);
+
+                        // Опціонально: очистити форму
+                        // amountInput.value = '';
+                        // amountButtons.forEach(btn => btn.classList.remove('active'));
+                    });
+                }
+            }
+
+            // Допоміжна функція для тексту валюти
+            function getCurrencyText(value) {
+                switch (value) {
+                    case '1': return 'UAH';
+                    case '2': return 'USD';
+                    case '3': return 'EUR';
+                    default: return 'UAH';
+                }
+            }
+        });
+    </script>
 
 </body>
 
